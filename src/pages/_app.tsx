@@ -9,7 +9,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Netflix - MUI</title>
+        <title>넷플릭스 대한민국 - 인터넷으로 시리즈와 영화를 시청하세요</title>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
       </Head>
       <ThemeProvider theme={theme}>

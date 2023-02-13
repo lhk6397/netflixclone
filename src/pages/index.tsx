@@ -1,11 +1,7 @@
-import Head from "next/head";
-import Button from "@mui/material/Button";
-import styles from "../styles/Home.module.css";
-import Image from "next/image";
-import Header from "@components/Header";
-import Features from "@components/Features";
-import FAQ from "@components/FAQ";
-import Footer from "@components/Footer";
+import TopImage from "@components/home/TopImage";
+import Features from "@components/home/Features";
+import FAQ from "@components/home/FAQ";
+import Footer from "@components/global/Footer";
 import LoginModal from "@components/LoginModal";
 import { useState } from "react";
 
@@ -14,7 +10,7 @@ export default function Home() {
 
   return (
     <>
-      <Header openModal={() => setOpen(true)} />
+      <TopImage openModal={() => setOpen(true)} />
       <Features />
       <FAQ />
       <Footer />

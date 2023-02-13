@@ -11,8 +11,8 @@ import {
   MenuItem,
   Select,
 } from "@mui/material";
-import BorderedBottomBox from "./wrapper/BorderBottomBox";
-const Header = ({ openModal }: { openModal: () => void }) => {
+import BorderedBottomBox from "../wrapper/BorderBottomBox";
+const TopImage = ({ openModal }: { openModal: () => void }) => {
   return (
     <BorderedBottomBox>
       <AppBar
@@ -160,4 +160,4 @@ const Header = ({ openModal }: { openModal: () => void }) => {
   );
 };
 
-export default Header;
+export default TopImage;
